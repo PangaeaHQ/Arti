@@ -14,7 +14,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../BitLogger"),
+        // FIXED: Pointing to the new remote repository instead of "../BitLogger"
+        .package(url: "https://github.com/PangaeaHQ/BitLogger.git", branch: "main"),
     ],
     targets: [
         // Main Swift target
