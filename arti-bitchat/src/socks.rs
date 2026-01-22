@@ -1,4 +1,4 @@
-//! SOCKS5 protocol handler for Arti
+//! SOCKS5 protocol handler for Arti - Pangaea
 //!
 //! Implements a minimal SOCKS5 server that forwards connections through Tor.
 
